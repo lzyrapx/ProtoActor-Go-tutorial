@@ -20,46 +20,103 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f2e8033-5bf0-484b-90d6-bb013bda57bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/examples/actor-backpressure/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/actor-helloworld/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/actor-inprocess-benchmark/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/actor-jaegertracing/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/actor-jaegertracing/docker-compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/actor-jaegertracing/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/actor-jaegertracing/router/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/actor-lifecycleevents/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/actor-mixins/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/actor-receive-middleware/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/actor-receive-timeout/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/actor-setbehavior/README.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/actor-setbehavior/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/actor-spawn-benchmark/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-mailboxstats/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-persistence/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-advertised-address/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-advertised-address/node1/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-advertised-address/node2/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-advertised-address/node3/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-benchmark/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-benchmark/messages/build.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-benchmark/messages/protos.pb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-benchmark/messages/protos.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-benchmark/node1/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-benchmark/node2/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-header/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-header/messages/build.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-header/messages/protos.pb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-header/messages/protos.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-header/node1/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-header/node2/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-latency/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-latency/messages/build.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-latency/messages/protos.pb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-latency/messages/protos.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-latency/node1/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-latency/node2/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-routing/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-routing/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-routing/client/local.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-routing/client/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-routing/messages/build.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-routing/messages/messages.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-routing/messages/messages.pb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-routing/messages/messages.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-routing/server/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-routing/start.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-ssl/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-ssl/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-ssl/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-ssl/cert/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-ssl/cert/localhost.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-ssl/messages/messages.pb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-ssl/messages/messages.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-ssl/messages/protobuf.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-watch/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-watch/messages/build.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-watch/messages/protos.pb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-watch/messages/protos.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-watch/node1/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-remote-watch/node2/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-requestresponse/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-router-demo/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-router-limitconcurrency/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/actor-supervision/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.12.5/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
   <component name="ProjectId" id="1kXhMkjuIhcjA9i0sQbZiCA0tHc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/examples" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/examples" />
+      <recent name="$PROJECT_DIR$/examples/actor-remote-benchmark" />
+      <recent name="$PROJECT_DIR$/examples/cluster-broadcast/shared" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -76,5 +133,9 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
   </component>
 </project>
