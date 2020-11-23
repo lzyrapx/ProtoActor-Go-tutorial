@@ -8,7 +8,7 @@ import (
 
 	"fmt"
 
-	"remotelatency/messages"
+	"github.com/lzyrapx/ProtoActor-Go-tutorial/examples/actor-remote-latency/messages"
 
 	console "github.com/AsynkronIT/goconsole"
 	"github.com/AsynkronIT/protoactor-go/actor"

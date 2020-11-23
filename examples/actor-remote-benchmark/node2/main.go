@@ -4,7 +4,7 @@ import (
 	"log"
 	"runtime"
 
-	"remotebenchmark/messages"
+	"github.com/lzyrapx/ProtoActor-Go-tutorial/examples/actor-remote-benchmark/messages"
 
 	console "github.com/AsynkronIT/goconsole"
 	"github.com/AsynkronIT/protoactor-go/actor"
