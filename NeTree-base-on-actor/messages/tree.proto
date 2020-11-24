@@ -1,0 +1,140 @@
+syntax = "proto3";
+package messages;
+
+message Add {
+  int32 key = 1;
+  string value = 2;
+}
+
+message SuccessAdd{
+  int32 key = 1;
+  string value = 2;
+}
+
+message Find {
+  int32 key = 1;
+}
+
+message SuccessFindValue{
+  int32 key = 1;
+  string value = 2;
+}
+
+message KeyValue{
+  int32 key = 1;
+  string value = 2;
+}
+
+message SetParentID{}
+message SetParentIDCustom{
+  string pid = 1;
+  string address = 2;
+}
+
+message Traverse{}
+message TraverseResponse{
+  repeated KeyValue kvPair = 1;
+}
+
+message Trees{}
+message TreesResponse{
+  int32 id = 1;
+  string token = 2;
+}
+message SendBackTreeResponse{
+  repeated TreesResponse trees = 1;
+}
+
+message LookingForKeyLeft{}
+message LookingForKeyRight{}
+message ErrorFindingValue{}
+
+message DeleteKey{
+  bool isLeft = 1;
+  int32 key = 2;
+}
+
+message CouldNotFindKey{}
+message Cleanup{
+  bool wasLeft = 1;
+}
+message FinalCleanup{
+  string pid = 1;
+  string address = 2;
+  bool SetToLeft = 3;
+}
+
+message SetLeftMaxKey{
+  int32 key = 1;
+}
+
+message SetNewRoot{
+  string pid = 1;
+  string address = 2;
+  string customPidToDelete = 3;
+  string customAddressToDelete = 4;
+}
+
+message InfoSetLeftMaxKey{}
+message InfoSetLeftMaxKeyResponse{
+  int32 key = 1;
+}
+
+message CreateNewTreeForCLI{
+  int32 leafSize = 1;
+}
+
+message CreateNewTreeResponse{
+  int32 id = 1;
+  string token = 2;
+}
+
+message InsertCLI{
+  int32 id = 1;
+  string token = 2;
+  int32 key = 3;
+  string value = 4;
+}
+
+message TreeTokenOrIDInvalid{
+  int32 id = 1;
+  string token = 2;
+}
+
+message DeleteCLI{
+  int32 id = 1;
+  string token = 2;
+  int32 key = 3;
+}
+
+message SearchCLI{
+  int32 id = 1;
+  string token = 2;
+  int32 key = 3;
+}
+
+message TraverseCLI{
+  int32 id = 1;
+  string token = 2;
+}
+
+message DeleteTreeCLI{
+  int32 id = 1;
+  string token = 2;
+}
+
+message SuccessfulTreeDelete{
+  int32 id = 1;
+  string token = 2;
+}
+
+message SuccessDeleteKey{
+  int32 key = 1;
+  string value = 2;
+}
+
+message ErrorKeyDoesNotExist{
+  int32 key = 1;
+}
+
+
