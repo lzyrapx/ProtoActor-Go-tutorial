@@ -13,7 +13,7 @@ func main()  {
 	log.Printf("net tree server started\n")
 	flagHost := flag.String("host", "localhost", "hostname allow remote actor to connect")
 	flagPort := flag.Int("port", 8080, "port allow remote actor to connect")
-	flagServiceName := flag.String("serverName", "Tree-Server", "the name of server")
+	flagServiceName := flag.String("servername", "Tree-Server", "the name of server")
 
 	flag.Parse()
 

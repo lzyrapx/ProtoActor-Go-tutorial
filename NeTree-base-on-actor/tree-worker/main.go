@@ -56,7 +56,7 @@ func main()  {
 
 	// local actor
 	flagBindHostName := flag.String("local bind hostname", "localhost", "bind to local hostname")
-	flagBindPort := flag.Int("local bind port", 8083, "bind to local port")
+	flagBindPort := flag.Int("local bind port", 8081, "bind to local port")
 
 	// tree operation
 	flagCreateTree := flag.Bool("createtree", false, "create tree. default not creating tree")
