@@ -64,7 +64,7 @@ Without any of the available flags, it will print out the currently available tr
     ```
 - Delete a tree: 
     ```
-    go run main.go--deletetree --token="xxxxxx" --id=19937
+    go run main.go --deletetree --token="xxxxxx" --id=19937
     ```
 - Traverse a tree:  
     ```
