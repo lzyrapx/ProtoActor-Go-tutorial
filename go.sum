@@ -16,6 +16,8 @@ github.com/AsynkronIT/goconsole v0.0.0-20160504192649-bfa12eebf716/go.mod h1:2wH
 github.com/AsynkronIT/gonet v0.0.0-20161127091928-0553637be225/go.mod h1:RwIiSK8AJBCPP7hBBfXD1iferErYAmGbqv/Lu84ZFIA=
 github.com/AsynkronIT/protoactor-go v0.0.0-20201117200131-5ae73aa8b6fe h1:2uttgCdocf9DerLzpLilmmOfxk4i/b2Rxl6NM4SJNVg=
 github.com/AsynkronIT/protoactor-go v0.0.0-20201117200131-5ae73aa8b6fe/go.mod h1:d/mmJA/N2WHh1nOhFkA8YmOQmsXo/VY3sUD2362NLB4=
+github.com/AsynkronIT/protoactor-go v0.0.0-20201128114700-7802d04516b0 h1:/GbvPKRt4WGYlfppw4ibOyZUpiNy+rQ0C20cdL0pfXc=
+github.com/AsynkronIT/protoactor-go v0.0.0-20201128114700-7802d04516b0/go.mod h1:d/mmJA/N2WHh1nOhFkA8YmOQmsXo/VY3sUD2362NLB4=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/BurntSushi/xgb v0.0.0-20160522181843-27f122750802/go.mod h1:IVnqGOEym/WlBOVXweHU+Q+/VP0lqqI8lqeDx9IjBqo=
 github.com/DataDog/datadog-go v3.2.0+incompatible/go.mod h1:LButxg5PwREeZtORoXG3tL4fMGNddJ+vMq1mwgfaqoQ=
